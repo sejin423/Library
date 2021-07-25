@@ -80,7 +80,8 @@ for i in range(len(count)):
         print(i, end=' ') 
         
 #-------------------------------------------------------------------------
-# 
+# 병합정렬
+# (nlogn)수행시간
 def merge_sort(arr):
     if len(arr) <= 1:
         return arr

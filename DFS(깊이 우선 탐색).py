@@ -24,4 +24,3 @@ graph=[
 visited = [False] * 9
 
 dfs(graph, 1, visited)
-© 2021 Git
